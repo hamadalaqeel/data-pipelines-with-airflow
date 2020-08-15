@@ -27,7 +27,7 @@ The log data is located at `s3://udacity-dend/log_data` and the song data is loc
     * Catchup is turned off
     * Do not email on retry
 - The task dependencies should generate the following graph view:
-![Fig 1: Dag with correct task dependencies](final_dag.png)
+![Fig 1: Dag with correct task dependencies](dag.png)
 - There are four operators:
 1. Stage operator 
     * Loads JSON and CSV files from S3 to Amazon Redshift
